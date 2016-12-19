@@ -35,6 +35,7 @@ public class MainActivity extends AppCompatActivity {
     Spinner spSwitchPort;
     Button bSubmit;
     Button bRoomConnections;
+    Button bRequests;
     TextView tvResponse;
     ArrayList alRackAndSwitchPort;
     RequestQueue queue;
@@ -55,6 +56,7 @@ public class MainActivity extends AppCompatActivity {
         spSwitchPort = (Spinner) findViewById(R.id.spSwitchPort);
         bSubmit = (Button) findViewById(R.id.bSubmit);
         bRoomConnections = (Button) findViewById(R.id.bRoomConnections);
+        bRequests = (Button) findViewById(R.id.bRequests);
         tvResponse = (TextView) findViewById(R.id.tvResponse);
 
         //Create array of 48 for rack and switch spinners
@@ -144,6 +146,14 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), FindConnection.class);
+                startActivity(intent);
+            }
+        });
+
+        bRequests.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), Requests.class);
                 startActivity(intent);
             }
         });

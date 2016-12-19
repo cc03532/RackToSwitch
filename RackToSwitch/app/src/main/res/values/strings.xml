@@ -9,6 +9,8 @@
     <string name="find_connection">Find Connection</string>
     <string name="send_connections">Send Connections</string>
     <string name="recipient_email">Recipient Email</string>
+    <string name="view_requests">View Requests</string>
+    <string name="cancel">Cancel</string>
 
     <array name="arRoom">
         <item>F01</item>

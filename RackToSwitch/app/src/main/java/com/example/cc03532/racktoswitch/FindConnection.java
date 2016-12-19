@@ -59,7 +59,7 @@ public class FindConnection extends AppCompatActivity {
         alConnections = new ArrayList();
 
         adConnections = new ArrayAdapter<>(this,
-                android.R.layout.simple_spinner_item, alConnections);
+                android.R.layout.simple_list_item_1, alConnections);
         adConnections.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
 
         lvConnections.setAdapter(adConnections);

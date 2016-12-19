@@ -122,6 +122,13 @@
         android:text="@string/find_connection"
         android:layout_marginTop="15dp"/>
 
+    <Button
+        android:id="@+id/bRequests"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/view_requests"
+        android:layout_marginTop="15dp"/>
+
     <TextView
         android:id="@+id/tvResponse"
         android:layout_width="match_parent"

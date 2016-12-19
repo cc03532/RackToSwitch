@@ -18,7 +18,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".FindConnection" />
-        <activity android:name=".SendConnections"></activity>
+        <activity android:name=".SendConnections" />
+        <activity android:name=".Requests"></activity>
     </application>
 
 </manifest>
